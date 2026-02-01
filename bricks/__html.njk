@@ -1,40 +1,35 @@
 <!doctype html>
-{# prettier-ignore-start #}
-  <html lang="{{ site.lang | d('en') }}">
-{# prettier-ignore-end #}
+<html lang="{{ site.lang | d('en') }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>
+      {{- title | strip_html ~ ' | ' if title -}}
+      {{- site.title -}}
+    </title>
+    <link rel="icon" href="/favicon.ico" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
-  <title>
-    {{- title | strip_html ~ ' | ' if title -}}
-    {{- site.title -}}
-  </title>
-  <link rel="icon" href="/favicon.ico" />
+    {%- for href in site.styles %}
+      <link rel="stylesheet" href="{{ href }}" />
+    {%- endfor %}
+    {# prettier-ignore-start #}
+    <style>{{ site.inline_styles | d([]) | join('\n') }}</style>
+    {# prettier-ignore-end #}
 
-  {%- for href in site.styles %}
-    <link rel="stylesheet" href="{{ href }}" />
-  {%- endfor %}
-  {# prettier-ignore-start #}
-  <style>{{ site.inline_styles | d([]) | join('\n') }}</style>
-  {# prettier-ignore-end #}
+    {%- for src in site.scripts %}
+      <script src="{{ src }}" defer></script>
+    {%- endfor %}
+    {# prettier-ignore-start #}
+    <script type="module">{{ site.inline_scripts | d([]) | join('\n') }}</script>
+    {# prettier-ignore-end #}
 
-  {%- for src in site.scripts %}
-    <script src="{{ src }}" defer></script>
-  {%- endfor %}
-  {# prettier-ignore-start #}
-  <script type="module">{{ site.inline_scripts | d([]) | join('\n') }}</script>
-  {# prettier-ignore-end #}
+    {{ content_for_header }}
+    {% include 'bricks/_gtm.njk' %}
+  </head>
 
-  {{ content_for_header }}
-  {% include 'bricks/_gtm.njk' %}
-</head>
-
-{# prettier-ignore-start #}
   <body>
     {% set for_body = true %}{% include 'bricks/_gtm.njk' %}
-    {% block body %}{% endblock %}
+    {% block body %}
+    {% endblock %}
   </body>
-
 </html>
-{# prettier-ignore-end #}
