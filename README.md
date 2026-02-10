@@ -22,7 +22,7 @@ Then import in your CSS:
 @import "@anydigital/bricks";
 ```
 
-<!--section:css-->
+<!--section:css-h2-->
 
 ## CSS Bricks
 
@@ -190,7 +190,7 @@ Includes [breakout-css](https://github.com/anydigital/breakout-css) utilities fo
 
 The breakout container has `10%` inline padding and a max-width of `calc(10% + 65ch + 10%)`. The breakout utilities support images, pictures, figures, canvas, audio, video, tables, pre, iframe, and other media elements. Tables inside `.breakout` are specifically enhanced for horizontal scrolling and full-bleed mobile display. This is automatically included when you import the stylesheet.
 
-<!--section:njk-liquid-->
+<!--section:njk-liquid-h2-->
 
 ## Generic Components (Template Bricks)
 
