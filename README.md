@@ -292,38 +292,10 @@ A template `bricks/_gtm.{njk|liquid}` for embedding Google Tag Manager scripts i
 - `site.prod` - Boolean flag to enable GTM only in production
 - `for_body` - Boolean flag (default: `false`). When `false`, renders the script tag for the `<head>`. When `true`, renders the noscript fallback for the `<body>`.
 
-**Note:** This template is automatically included when using `__html.liquid`. You only need to manually render it if you're not using that base template.
+**Note:** This template is automatically included when using `__html.liquid`. You only need to manually render it if you're not using that base template, see examples:
 
-**Manual Usage:**
-
-In your base template's `<head>`:
-
-```liquid
-{% render 'bricks/_gtm', site: site %}
-```
-
-In your base template's `<body>` (right after the opening tag):
-
-```liquid
-{% render 'bricks/_gtm', site: site, for_body: true %}
-```
-
-**Example (Manual Integration):**
-
-```liquid
-<!DOCTYPE html>
-<html>
-<head>
-  {% render 'bricks/_gtm', site: site %}
-</head>
-<body>
-  {% render 'bricks/_gtm', site: site, for_body: true %}
-  <!-- Your content -->
-</body>
-</html>
-```
-
-**Rendering Logic:** The GTM script is only rendered when both `site.prod` is `true` and `site.gtm_id` is set. The template uses a capture block to strip whitespace from the output.
+- https://github.com/anydigital/bricks/blob/main/bricks/__html.njk
+- https://github.com/anydigital/bricks/blob/main/bricks/__html.liquid
 
 <!--section-->
 
