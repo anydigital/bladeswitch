@@ -4,14 +4,16 @@ Framework-agnostic, Tailwind-compatible CSS utilities and single-file `bricks` f
 
 <!--section:css-h2-->
 
-## CSS 'Bricks' <sub>from https://github.com/anydigital/bricks</sub>
+<a id="bricks"></a>
+
+## CSS 'Bricks' <br><sub>from https://github.com/anydigital/bricks</sub>
 
 ### Install CSS
 
 Via CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@anydigital/bricks@0/dist/bricks.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/@anydigital/bricks@0/dist/bricks.min.css" rel="stylesheet" />
 ```
 
 Or import source styles via npm:
@@ -192,7 +194,7 @@ The breakout container has `10%` inline padding and a max-width of `calc(10% + 6
 
 <!--section:njk-liquid-h2-->
 
-## Universal Template 'Bricks' <small>(`.njk` & `.liquid`)</small> <sub>from https://github.com/anydigital/bricks</sub>
+## Universal Template 'Bricks' <small>(`.njk` & `.liquid`)</small> <br><sub>from https://github.com/anydigital/bricks</sub>
 
 The package includes reusable templates in the `./src/bricks/` directory. These are useful for common web development patterns.
 
