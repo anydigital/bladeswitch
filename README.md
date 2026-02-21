@@ -4,9 +4,7 @@ Framework-agnostic, Tailwind-compatible CSS utilities and single-file `bricks` f
 
 <!--section:css-h2-->
 
-<a id="bricks"></a>
-
-## CSS 'Bricks' <br><sub>from https://github.com/anydigital/bricks</sub>
+## CSS 'Bricks' <br><sub>from https://github.com/anydigital/bricks</sub> <a id="bricks"></a>
 
 ### Install CSS
 
@@ -26,7 +24,11 @@ npm install @anydigital/bricks
 @import "@anydigital/bricks";
 ```
 
+<details><summary>
+
 ### `_base.css` styles
+
+</summary>
 
 #### Overflow Control
 
@@ -90,7 +92,13 @@ body {
 
 This is automatically applied when you include the stylesheet.
 
+</details>
+
+<details><summary>
+
 ### `_prose.css` Tailwind Typography enhancements
+
+</summary>
 
 The `.prose` class provides enhanced typography for article content and long-form text with container-like behavior:
 
@@ -133,6 +141,8 @@ The `.prose` class provides enhanced typography for article content and long-for
 
 - Code blocks with `data-caption` attribute display the caption above the code block (styled with 50% opacity, italic, and `1.5em` bottom margin)
 
+</details>
+
 ### `_prism.css` enhancements
 
 Includes specialized styling for Prism.js, specifically focusing on treeview components:
@@ -143,7 +153,11 @@ Includes specialized styling for Prism.js, specifically focusing on treeview com
 - Last-child entry names have no `::before` pseudo-element
 - Supports complex file tree visualizations out of the box
 
+<details><summary>
+
 ### `_util.css` helpers
+
+</summary>
 
 #### Scrollbar Inversion
 
@@ -179,6 +193,8 @@ This ensures the icon and the text stay together on the same line. If you need n
 ```
 
 This is automatically included when you import the stylesheet.
+
+</details>
 
 ### `breakout-css` included
 
