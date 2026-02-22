@@ -1,0 +1,11 @@
+title: Bladeswitch
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: minima
+
+exclude:
+  - "**/*"
+include:
+  - README.md
