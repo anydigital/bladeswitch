@@ -1,9 +1,0 @@
-{% extends 'bricks/html.njk' %}
-
-{% block body %}
-  <main>
-    <article class="prose lg:prose-xl xl:prose-2xl breakout breakout-headings">{{ content | safe }}</article>
-  </main>
-
-  <footer class="prose">{{ site.footer | renderContent('njk', site) | safe }}</footer>
-{% endblock %}
