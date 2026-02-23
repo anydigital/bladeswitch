@@ -2,3 +2,5 @@ remote_theme: anydigital/bricks
 plugins:
   - jekyll-remote-theme
 # theme: bricks
+styles:
+  - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
