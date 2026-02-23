@@ -1,4 +1,0 @@
-[submodule "_bricks"]
-	path = _bricks
-	url = https://github.com/anydigital/bricks.git
-	branch = main

@@ -1,11 +1,4 @@
-title: Bladeswitch
-baseurl: ""
-url: ""
-
-markdown: kramdown
-theme: minima
-
-exclude:
-  - "**/*"
-include:
-  - README.md
+remote_theme: anydigital/bricks
+plugins:
+  - jekyll-remote-theme
+# theme: bricks

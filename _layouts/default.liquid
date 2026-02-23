@@ -1,0 +1,11 @@
+{% comment %}{% endcomment %}
+
+{% capture body %}
+  <main>
+    <article class="prose lg:prose-xl xl:prose-2xl breakout breakout-headings">{{ content }}</article>
+  </main>
+
+  <footer class="prose">{{ site.footer | renderContent: 'liquid', site }}</footer>
+{% endcapture %}
+
+{% include bricks/html.liquid %}
