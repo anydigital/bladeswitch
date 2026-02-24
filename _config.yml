@@ -2,8 +2,3 @@ remote_theme: anydigital/bricks
 plugins:
   - jekyll-remote-theme
 # theme: bricks
-
-exclude:
-  - "**/*"
-include:
-  - "*.md"
