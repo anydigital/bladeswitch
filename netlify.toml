@@ -1,0 +1,3 @@
+[build]
+  command = "npx @11ty/eleventy"
+  publish = "_site"
