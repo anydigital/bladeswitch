@@ -1,11 +1,11 @@
-{% comment %}{% endcomment %}
+{% if site.data.site %}{% assign site = site.data.site %}{% endif %}
 
 {% capture body %}
-  <main>
-    <article class="prose lg:prose-xl xl:prose-2xl breakout breakout-headings">{{ content }}</article>
+  <main class="container">
+    <header><small>{{ site.header | markdownify }}</small></header>
+    <article>{{ content }}</article>
+    <footer><small>{{ site.footer | markdownify }}</small></footer>
   </main>
-
-  <footer class="prose">{{ site.footer | renderContent: 'liquid', site }}</footer>
 {% endcapture %}
 
 {% include bricks/html.liquid %}

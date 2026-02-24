@@ -1,2 +1,9 @@
+title: Bladeswitch
 styles:
   - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
+header: |-
+  Welcome to:
+footer: |-
+  Powered by [Bladeswitch](https://bladeswitch.com)
+  × [*Any*digital](https://any.digital/)
+  © 2026
