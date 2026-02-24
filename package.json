@@ -1,6 +1,7 @@
 {
   "name": "bladeswitch",
   "private": "true",
+  "type": "module",
   "version": "0.0.1-dev",
   "repository": {
     "type": "git",
@@ -9,7 +10,9 @@
   "author": "Anton Staroverov",
   "license": "MIT",
   "homepage": "https://bladeswitch.com/",
-  "devDependencies": {
-    "@11ty/eleventy": "^4.0.0-alpha.6"
+  "dependencies": {
+    "@11ty/eleventy": "^4.0.0-alpha.6",
+    "@anydigital/bricks": "^0.26.0-alpha",
+    "@anydigital/eleventy-bricks": "^0.28.0-alpha"
   }
 }

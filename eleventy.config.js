@@ -1,0 +1,1 @@
+./node_modules/@anydigital/eleventy-bricks/src/eleventy.config.js
