@@ -1,0 +1,15 @@
+{
+  "name": "bladeswitch",
+  "private": "true",
+  "version": "0.0.1-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anydigital/bladeswitch.git"
+  },
+  "author": "Anton Staroverov",
+  "license": "MIT",
+  "homepage": "https://bladeswitch.com/",
+  "devDependencies": {
+    "@11ty/eleventy": "^4.0.0-alpha.6"
+  }
+}
