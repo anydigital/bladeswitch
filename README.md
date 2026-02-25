@@ -1,3 +1,7 @@
+---
+permalink: /
+---
+
 # 🥷 Bladeswitch
 
 Easy to start, easy to switch!
