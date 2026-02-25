@@ -14,8 +14,8 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
 
 <table>
   <tr>
-    <th width="50%"><big>Jekyll ↓ <a href="https://anydigital.github.io/bladeswitch/" target="_blank">Preview</a></big></th>
-    <th width="50%"><big>Eleventy ↓ <a href="https://bladeswitch.netlify.app/" target="_blank">Preview</a></big></th>
+    <th width="50%">🥷 <em>for</em> <big>Jekyll ↓ <a href="https://anydigital.github.io/bladeswitch/" target="_blank">Preview</a></big></th>
+    <th width="50%">🥷 <em>for</em> <big>Eleventy ↓ <a href="https://bladeswitch.netlify.app/" target="_blank">Preview</a></big></th>
   </tr>
 
   <tr><th colspan="2">Minimal Dependencies:</th></tr>
