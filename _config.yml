@@ -2,3 +2,5 @@ remote_theme: anydigital/bricks
 plugins:
   - jekyll-remote-theme
 # theme: bricks
+
+layouts_dir: _includes # 11ty parity

@@ -1,6 +1,7 @@
 _site/
 .bundle/
 .jekyll-cache/
-vendor/
-.DS_Store
 node_modules/
+vendor/
+.ruby-version
+.DS_Store

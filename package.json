@@ -1,18 +1,23 @@
 {
-  "name": "bladeswitch",
   "private": "true",
-  "type": "module",
+  "name": "bladeswitch",
   "version": "0.0.1-dev",
+  "type": "module",
+  "scripts": {
+    "start": "rbenv local 3.2.10 && bundle exec jekyll serve",
+    "11ty": "eleventy --config=./node_modules/@anydigital/eleventy-bricks/src/eleventy.config.js",
+    "dev": "npm run 11ty -- --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^4.0.0-alpha.6",
+    "@anydigital/bricks": "^0.26.0-alpha",
+    "@anydigital/eleventy-bricks": "^0.28.0-alpha.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anydigital/bladeswitch.git"
   },
   "author": "Anton Staroverov",
   "license": "MIT",
-  "homepage": "https://bladeswitch.com/",
-  "dependencies": {
-    "@11ty/eleventy": "^4.0.0-alpha.6",
-    "@anydigital/bricks": "^0.26.0-alpha",
-    "@anydigital/eleventy-bricks": "^0.28.0-alpha"
-  }
+  "homepage": "https://bladeswitch.com/"
 }
