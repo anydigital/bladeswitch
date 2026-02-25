@@ -50,9 +50,9 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
         <small>(natively, w/o GitHub Actions!)</small>
       </a></p>
       <h6>↓ then:</h6>
-      2) Go to <em>Settings → Pages</em><br>
-      3) Find <em>Build and Deployment</em><br>
-      4) Set <em>Branch=main</em> and Save.<br>
+      2) go to <em>Settings → Pages</em><br>
+      3) find <em>Build and Deployment</em><br>
+      4) set <em>Branch=main</em> and <em>Save</em>.
     </td>
     <td style="vertical-align: top">
       <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button">
