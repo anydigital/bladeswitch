@@ -47,7 +47,7 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
     <td style="vertical-align: top">
       <p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button">
         Using Jekyll on GitHub Pages<br>
-        <small>(natively, w/o GH Actions!)</small>
+        <small>(natively, w/o GitHub Actions!)</small>
       </a></p>
       <h6>↓ then:</h6>
       2) Go to <em>Settings → Pages</em><br>
@@ -57,7 +57,7 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
     <td style="vertical-align: top">
       <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button">
         Using Eleventy on Netlify<br>
-        <small>(preconfigured!)</small>
+        <small>(all preconfigured!)</small>
       </a></p>
       <h6>→ done!</h6>
       (with Netlify no more actions needed)
