@@ -9,7 +9,7 @@ Easy to start, easy to switch!
 Meet **Bladeswitch**, the only backward-compatible starter for BOTH Jekyll and Eleventy (at the same time) 🥷
 
 <table>
-  <caption>Dependencies:</caption>
+  <caption>Dependencies and deploy options:</caption>
   <tr>
     <th>Jekyll</th>
     <th></th>
