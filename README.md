@@ -13,6 +13,7 @@ The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time
 
 Don't vendor-lock your website — it's easy to start, and easy to switch!
 
+<div class="overflow-auto">
 <table>
   <tr><th colspan="2">Minimal Dependencies:</th></tr>
   <tr>
@@ -62,6 +63,7 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
     </td>
   </tr>
 </table>
+</div>
 <!-- these styles are only for the table above, feel free to remove them -->
 <style>
   th, td {
