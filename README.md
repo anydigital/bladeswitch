@@ -15,11 +15,20 @@ permalink: /
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions). Focus on the _Content_, not on the _Generator_!
 
+---
+
+It has only <big>3</big> dependencies:
+
 <table>
-  <tr><th colspan="2">Minimal Dependencies:</th></tr>
   <tr>
-    <th width="50%">🥷 <em>for</em> <big>Jekyll ↓ <a href="https://anydigital.github.io/bladeswitch/" target="_blank">preview</a></big></th>
-    <th width="50%">🥷 <em>for</em> <big>Eleventy ↓ <a href="https://bladeswitch.netlify.app/" target="_blank">preview</a></big></th>
+    <th width="50%">
+      &nbsp;🥷 <em>for</em> <big>Jekyll</big>&nbsp;
+      <sup><a href="https://anydigital.github.io/bladeswitch/" target="_blank">PREVIEW</a></sup>
+    </th>
+    <th width="50%">
+      &nbsp;🥷 <em>for</em> <big>Eleventy</big>&nbsp;
+      <sup><a href="https://bladeswitch.netlify.app/" target="_blank">PREVIEW</a></sup>
+    </th>
   </tr>
   <tr>
     <td>
@@ -35,7 +44,7 @@ The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time
     <td colspan="2">
       <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank" title="reusable template and CSS `bricks`">bricks[.css]</a></h3><sub
       >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
-      >   |   via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a></sub>           </pre>
+      > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sub></pre>
     </td>
   </tr>
   <tr>
@@ -43,31 +52,11 @@ The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time
       <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico.css</a></h3><sub>from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
     </td>
   </tr>
-
-  <tr><th colspan="2"><br>Deploy 🥷 <em>Blade</em>switch:</th></tr>
-  <tr>
-    <td style="vertical-align: top">
-      <p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button">
-        Using Jekyll on GitHub Pages<br>
-        <small>(natively, w/o GitHub Actions!)</small>
-      </a></p>
-      1) click ↑ to "fork" the template<br>
-      2) go to ⚙️ <em>Settings → Pages</em><br>
-      3) set <em>Branch = main</em> and <em>Save</em>.
-    </td>
-    <td style="vertical-align: top">
-      <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button">
-        Using Eleventy on Netlify<br>
-        <small>(all preconfigured!)</small>
-      </a></p>
-      (with Netlify no more actions needed)
-    </td>
-  </tr>
 </table>
 <!-- these styles are only for the table above, feel free to remove them -->
 <style>
   th, td {
-    text-align: center;
+    /* text-align: center; */
   }
   th {
     font-weight: bold;
@@ -85,3 +74,27 @@ The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time
     margin-bottom: 0;
   }
 </style>
+
+## Deploy Options
+
+<div class="grid"><div markdown="1">
+
+###### A. Natively, w/o GitHub Actions:
+
+<p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button">
+  Using Jekyll on GitHub Pages
+</a></p>
+
+1. Click ↑ to init your own repo.
+2. Go to ⚙️ _Settings → Pages_.
+3. Set _Branch = main_ and _Save_.
+
+</div><div markdown="1">
+
+###### B. Fully preconfigured:
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button">
+  Using Eleventy on Netlify
+</a>
+
+</div></div>
