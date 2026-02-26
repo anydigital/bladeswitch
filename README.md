@@ -8,17 +8,16 @@ permalink: /
 ![Netlify](https://img.shields.io/netlify/ec716489-5d5d-43cb-9fa1-892f8479436e?label=Eleventy&logo=netlify)
 [![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/bladeswitch?label=GitHub)](https://github.com/anydigital/bladeswitch)
 
-The only backward-compatible starter for _BOTH_ Jekyll and Eleventy (at the same time) 🥷
+The only starter compatible with _BOTH_ Jekyll and Eleventy at the same time.
 
 Don't vendor-lock your website — it's easy to start, and easy to switch!
 
 <table>
-  <tr>
-    <th width="50%">🥷 <em>for</em> <big>Jekyll ↓ <a href="https://anydigital.github.io/bladeswitch/" target="_blank">Preview</a></big></th>
-    <th width="50%">🥷 <em>for</em> <big>Eleventy ↓ <a href="https://bladeswitch.netlify.app/" target="_blank">Preview</a></big></th>
-  </tr>
-
   <tr><th colspan="2">Minimal Dependencies:</th></tr>
+  <tr>
+    <th width="50%">🥷 <em>for</em> <big>Jekyll ↓ <a href="https://anydigital.github.io/bladeswitch/" target="_blank">preview</a></big></th>
+    <th width="50%">🥷 <em>for</em> <big>Eleventy ↓ <a href="https://bladeswitch.netlify.app/" target="_blank">preview</a></big></th>
+  </tr>
   <tr>
     <td>
       <pre><h3>1. <a href="https://github.com/github/pages-gem" target="_blank">pages-gem[-jekyll]</a></h3><sub
@@ -38,7 +37,7 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>3. pico.css</h3><sub>from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
+      <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico.css</a></h3><sub>from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
     </td>
   </tr>
 
@@ -64,6 +63,7 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
     </td>
   </tr>
 </table>
+<!-- these styles are only for the table above, feel free to remove them -->
 <style>
   th, td {
     text-align: center;
