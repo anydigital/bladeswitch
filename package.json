@@ -1,7 +1,7 @@
 {
   "private": "true",
   "name": "bladeswitch",
-  "version": "0.0.1-dev",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "start": "rbenv local 3.2.10 && bundle exec jekyll serve",
