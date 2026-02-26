@@ -9,10 +9,10 @@
 {% endcapture %}
 
 {% capture body %}
-  <main class="container" style="max-width: 65ch">
+  <main class="container breakout">
     <header><small>{{ site.header | markdownify }}</small></header>
-    <article class="breakout">{{ content }}</article>
-    <footer style="text-align: center"><small>{{ site.footer | markdownify }}</small></footer>
+    {{ content }}
+    <footer style="text-align: center"><hr><small>{{ site.footer | markdownify }}</small>🥷</footer>
   </main>
 {% endcapture %}
 

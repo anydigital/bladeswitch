@@ -13,9 +13,7 @@ permalink: /
 
 </div>
 
-The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions).
-
-Focus on the _Content_, not on the _Generator_!
+The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions). Focus on the _Content_, not on the _Generator_!
 
 <table>
   <tr><th colspan="2">Minimal Dependencies:</th></tr>
