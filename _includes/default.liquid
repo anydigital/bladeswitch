@@ -9,9 +9,9 @@
 {% endcapture %}
 
 {% capture body %}
-  <main class="container">
+  <main class="container" style="max-width: 65ch">
     <header><small>{{ site.header | markdownify }}</small></header>
-    <article>{{ content }}</article>
+    <article class="breakout">{{ content }}</article>
     <footer style="text-align: center"><small>{{ site.footer | markdownify }}</small></footer>
   </main>
 {% endcapture %}

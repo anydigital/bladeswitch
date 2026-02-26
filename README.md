@@ -4,16 +4,19 @@ permalink: /
 
 # 🥷 *Blade*switch
 
+<div markdown="1">
+
 ![GitHub Release](https://img.shields.io/github/v/release/anydigital/bladeswitch?color=black&label=%20)
 ![GitHub deployments](https://img.shields.io/github/deployments/anydigital/bladeswitch/github-pages?label=Jekyll&logo=github)
 ![Netlify](https://img.shields.io/netlify/ec716489-5d5d-43cb-9fa1-892f8479436e?label=Eleventy&logo=netlify)
 [![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/bladeswitch?label=GitHub)](https://github.com/anydigital/bladeswitch)
 
+</div>
+
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions).
 
-Focus on the *Content*, not on the *Generator*! (and get a "failover" tool, which is always available)
+Focus on the _Content_, not on the _Generator_! (and get a "failover" tool, which is always available)
 
-<div class="overflow-auto">
 <table>
   <tr><th colspan="2">Minimal Dependencies:</th></tr>
   <tr>
@@ -50,8 +53,8 @@ Focus on the *Content*, not on the *Generator*! (and get a "failover" tool, whic
         Using Jekyll on GitHub Pages<br>
         <small>(natively, w/o GitHub Actions!)</small>
       </a></p>
-      1) click ↑ to init from template;<br>
-      2) go to ⚙️ <em>Settings → Pages</em>;<br>
+      1) click ↑ to "fork" the template<br>
+      2) go to ⚙️ <em>Settings → Pages</em><br>
       3) set <em>Branch = main</em> and <em>Save</em>.
     </td>
     <td style="vertical-align: top">
@@ -63,7 +66,6 @@ Focus on the *Content*, not on the *Generator*! (and get a "failover" tool, whic
     </td>
   </tr>
 </table>
-</div>
 <!-- these styles are only for the table above, feel free to remove them -->
 <style>
   th, td {
