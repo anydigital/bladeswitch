@@ -17,7 +17,7 @@ The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time
 
 ---
 
-It has only <big>3</big> dependencies:
+It has only <big>3</big> direct dependencies:
 
 <table>
   <tr>
@@ -42,14 +42,14 @@ It has only <big>3</big> dependencies:
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank" title="reusable template and CSS `bricks`">bricks[.css]</a></h3><sub
-      >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
-      > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sub></pre>
+      <pre><h3>2. <a href="https://github.com/picocss/pico" target="_blank">pico.css</a></h3><sub>from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico.css</a></h3><sub>from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
+      <pre><h3>3. <a href="https://github.com/anydigital/bricks" target="_blank">bricks[.css]</a></h3><sub
+      >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
+      > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sub></pre>
     </td>
   </tr>
 </table>
