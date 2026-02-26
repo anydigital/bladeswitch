@@ -49,8 +49,8 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
         Using Jekyll on GitHub Pages<br>
         <small>(natively, w/o GitHub Actions!)</small>
       </a></p>
-      <h6>↓ then:</h6>
-      2) go to ⚙️ <em>Settings → Pages</em><br>
+      1) click ↑ to init from template;<br>
+      2) go to ⚙️ <em>Settings → Pages</em>;<br>
       3) set <em>Branch=main</em> and <em>Save</em>.
     </td>
     <td style="vertical-align: top">
@@ -58,7 +58,6 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
         Using Eleventy on Netlify<br>
         <small>(all preconfigured!)</small>
       </a></p>
-      <h6>→ done!</h6>
       (with Netlify no more actions needed)
     </td>
   </tr>
