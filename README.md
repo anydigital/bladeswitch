@@ -57,9 +57,6 @@ It has only <big>3</big> direct dependencies:
 </table>
 <!-- these styles are only for the table above, feel free to remove them -->
 <style>
-  th, td {
-    /* text-align: center; */
-  }
   th {
     font-weight: bold;
   }
