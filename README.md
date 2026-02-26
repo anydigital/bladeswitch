@@ -11,7 +11,7 @@ permalink: /
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions).
 
-Don't vendor-lock your website — it's easy to start, and easy to switch!
+Focus on the *Content*, not on the *Generator*! (and have a failover setup as a bonus)
 
 <div class="overflow-auto">
 <table>
