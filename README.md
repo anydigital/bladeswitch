@@ -9,7 +9,7 @@ permalink: /
 ![Netlify](https://img.shields.io/netlify/ec716489-5d5d-43cb-9fa1-892f8479436e?label=Eleventy&logo=netlify)
 [![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/bladeswitch?label=GitHub)](https://github.com/anydigital/bladeswitch)
 
-The only starter compatible with _BOTH_ Jekyll and Eleventy at the same time.
+The only starter compatible with _BOTH_ Jekyll and Eleventy at the same time (so you can switch between Jekyll and 11ty back and forth, w/o changing your content/templates).
 
 Don't vendor-lock your website — it's easy to start, and easy to switch!
 
