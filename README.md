@@ -105,8 +105,8 @@ Featured in: https://any.digital/tricks/11ty/#min-starters
 <!-- @TODO: via bricks.css -->
 <style>
   a > i > img {
-    max-height: 1.25em;
-    margin-top: -0.125em;
-    margin-right: 0.25rem;
+    max-height: 1.2em;
+    margin-top: -0.1em;
+    margin-right: 0.2em;
   }
 </style>
