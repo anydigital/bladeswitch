@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "rbenv local 3.2.10 && bundle exec jekyll serve",
+    "start": "npm run 11ty -- --serve",
     "11ty": "eleventy --config=./node_modules/@anydigital/eleventy-bricks/src/eleventy.config.js",
-    "dev": "npm run 11ty -- --serve"
+    "dev": "rbenv local 3.2.10 && bundle exec jekyll serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.6",
