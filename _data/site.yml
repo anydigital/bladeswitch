@@ -1,4 +1,5 @@
 title: Bladeswitch
+description: The only starter compatible with BOTH Jekyll and Eleventy at the same time 🥷
 styles:
   - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
 header: |-
