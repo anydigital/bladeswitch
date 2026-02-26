@@ -15,8 +15,6 @@ permalink: /
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions). Focus on the _Content_, not on the _Generator_!
 
-[github•com/anydigital/bladeswitch](https://github.com/anydigital/bladeswitch)
-
 ---
 
 It has only <big>3</big> direct dependencies:
@@ -97,3 +95,18 @@ It has only <big>3</big> direct dependencies:
 </a>
 
 </div></div>
+
+---
+
+Repo: https://github.com/anydigital/bladeswitch
+
+Featured in: https://any.digital/tricks/11ty/#min-starters
+
+<!-- @TODO: via bricks.css -->
+<style>
+  a > i > img {
+    max-height: 1.25em;
+    margin-top: -0.125em;
+    margin-right: 0.25rem;
+  }
+</style>
