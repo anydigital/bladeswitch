@@ -15,6 +15,8 @@ permalink: /
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time (so you can develop locally using 11ty w/o Ruby, but deploy natively to GitHub Pages using Jekyll w/o any GitHub Actions). Focus on the _Content_, not on the _Generator_!
 
+[github•com/anydigital/bladeswitch](https://github.com/anydigital/bladeswitch)
+
 ---
 
 It has only <big>3</big> direct dependencies:
