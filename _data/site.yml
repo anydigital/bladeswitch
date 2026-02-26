@@ -6,6 +6,7 @@ styles:
 header: |-
   Meet:
 footer: |-
-  Powered by [*Blade*switch](https://bladeswitch.com)
+  Powered by [11ty](https://www.11ty.dev/)
+  × [Jekyll](https://jekyllrb.com/)
   × [*Any*digital](https://any.digital/)
   © 2026
