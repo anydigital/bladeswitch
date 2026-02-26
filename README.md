@@ -51,7 +51,7 @@ Don't vendor-lock your website — it's easy to start, and easy to switch!
       </a></p>
       1) click ↑ to init from template;<br>
       2) go to ⚙️ <em>Settings → Pages</em>;<br>
-      3) set <em>Branch=main</em> and <em>Save</em>.
+      3) set <em>Branch = main</em> and <em>Save</em>.
     </td>
     <td style="vertical-align: top">
       <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button">
