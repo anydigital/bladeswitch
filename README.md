@@ -113,6 +113,6 @@ Featured in:
   a > i > img {
     max-height: 1.2em;
     margin-top: -0.1em;
-    margin-right: 0.2em;
+    margin-right: 0.25em;
   }
 </style>
