@@ -4,14 +4,10 @@ permalink: /
 
 # 🥷 *Blade*switch
 
-<div markdown="1">
-
 ![GitHub Release](https://img.shields.io/github/v/release/anydigital/bladeswitch?color=black&label=%20)
 ![GitHub deployments](https://img.shields.io/github/deployments/anydigital/bladeswitch/github-pages?label=Jekyll&logo=github)
 ![Netlify](https://img.shields.io/netlify/ec716489-5d5d-43cb-9fa1-892f8479436e?label=Eleventy&logo=netlify)
 [![GitHub Repo stars](https://img.shields.io/github/stars/anydigital/bladeswitch?label=GitHub)](https://github.com/anydigital/bladeswitch)
-
-</div>
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time.
 
@@ -113,12 +109,3 @@ Featured in:
 - https://sveltiacms.app/en/docs/frameworks/eleventy
 - https://sveltiacms.app/en/docs/frameworks/jekyll
 - https://any.digital/tricks/11ty/#min-starters
-
-<!-- @TODO: via bricks.css -->
-<style>
-  a > i > img {
-    max-height: 1.2em;
-    margin-top: -0.1em;
-    margin-right: 0.25em;
-  }
-</style>

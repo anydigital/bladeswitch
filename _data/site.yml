@@ -3,8 +3,7 @@ description: The only starter compatible with BOTH Jekyll and Eleventy at the sa
 styles:
   - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
   # - https://cdn.jsdelivr.net/npm/@anydigital/bricks@0/dist/bricks.min.css
-  # - /assets/bricks.css
-  - /assets/breakout.css
+  - /assets/bricks.css
 header: |-
   Meet:
 footer: |-
