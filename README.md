@@ -32,7 +32,7 @@ It has only <big>3</big> direct dependencies:
   </tr>
   <tr>
     <td>
-      <pre><h3>1. <a href="https://github.com/github/pages-gem" target="_blank">pages-gem[-jekyll]</a></h3><sub
+      <pre><h3>1. <a href="https://github.com/github/pages-gem" target="_blank">pages-gem<small>-jekyll</small></a></h3><sub
       >via <a href="https://github.com/anydigital/bladeswitch/blob/main/Gemfile" target="_blank">Gemfile</a></sub></pre>
     </td>
     <td>
@@ -42,14 +42,14 @@ It has only <big>3</big> direct dependencies:
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank">bricks[.css]</a></h3><sub
+      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank">bricks<small>.css</small></a></h3><sub
       >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
       > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sub></pre>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico.css</a> <small style="opacity: 50%; font-weight: lighter">(optional)</small></h3><sub
+      <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico<small>.css</small></a> <small>optional</small></h3><sub
       >from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
     </td>
   </tr>
@@ -70,6 +70,10 @@ It has only <big>3</big> direct dependencies:
   }
   pre h3 {
     margin-bottom: 0;
+  }
+  pre small {
+    opacity: 50%;
+    font-weight: lighter;
   }
 </style>
 
