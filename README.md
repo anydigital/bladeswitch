@@ -83,7 +83,7 @@ It has only <big>3</big> direct dependencies:
 
 ###### A. Natively, w/o GitHub Actions:
 
-<p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button">
+<p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button" class="contrast">
   Using Jekyll on GitHub Pages
 </a></p>
 
@@ -95,7 +95,7 @@ It has only <big>3</big> direct dependencies:
 
 ###### B. Fully preconfigured:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button">
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button" class="contrast">
   Using Eleventy on Netlify
 </a>
 
