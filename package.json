@@ -8,8 +8,8 @@
     "./dist": "./dist/bricks.css"
   },
   "scripts": {
-    "postcss": "postcss src/bricks.css -o assets/bricks.css",
-    "build": "npm run postcss -- --no-map && cp ./node_modules/@anydigital/breakout-css/dist/breakout.css ./assets/",
+    "postcss": "postcss ./src/bricks.css -o ./assets/bricks.css",
+    "build": "npm run postcss -- --no-map",
     "start": "npm run postcss -- --watch",
     "prepublishOnly": "npm run build"
   },
@@ -30,10 +30,6 @@
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.1",
-    "postcss-preset-env": "^10.6.0",
     "prettier-plugin-jinja-template": "^2.1.0"
-  },
-  "dependencies": {
-    "@anydigital/breakout-css": "^0.11.1"
   }
 }
