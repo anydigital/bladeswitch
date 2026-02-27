@@ -5,16 +5,14 @@
   padding-inline: 10%;
   max-width: calc(10% + 65ch + 10%);
 
-  /* Direct children, or wrapped in <p> for Markdown support */
-  & > *,
-  & > p > * {
+  /* Breakout direct children only */
+  & > * {
     &:is(
-      /* Inline blocks */
-      img, picture, figure, canvas, audio,
-      /* Larger blocks */
       table,
       pre,
-      iframe, object, embed, video,
+      figure, video, iframe, canvas,
+      /* Only breakout img/picture wrapped in <p> to avoid breaking badges, etc. */
+      p > img, p > picture,
       /* Custom utility classes for other tags that need to be broken out */
       .breakout-item,
       .breakout-item-max
@@ -26,15 +24,13 @@
       transform: translateX(-50%);
     }
 
-    /*** .does-not-exist is used below to avoid !important-s @TODO ***/
-
-    /* Respect inline blocks' min-width */
-    &:is(img, picture, figure, canvas, audio):not(.does-not-exist) {
+    /* Respect img/picture min-width */
+    &:is(p > img, p > picture) {
       min-width: auto;
     }
 
     /* Tables are so special :( */
-    &:is(table):not(.does-not-exist) {
+    &:is(table) {
       /* Let them full-bleed */
       width: max-content;
       min-width: auto;
@@ -78,12 +74,7 @@
       height: 0.3em;
       top: 50%;
       transform: translateY(-50%);
-      background: linear-gradient(
-        to left,
-        rgba(0, 0, 0, 10%),
-        rgba(0, 0, 0, 5%) 10%,
-        transparent
-      );
+      background: linear-gradient(to left, rgba(0, 0, 0, 10%), rgba(0, 0, 0, 5%) 10%, transparent);
     }
   }
   hr {
