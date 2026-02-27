@@ -6,7 +6,7 @@ styles:
 header: |-
   Meet:
 footer: |-
-  Powered by [11ty](https://www.11ty.dev/)
-  × [Jekyll](https://jekyllrb.com/)
+  Powered by [11ty](https://github.com/11ty/eleventy)
+  × [Jekyll](https://github.com/jekyll/jekyll)
   × [*Any*digital](https://any.digital/)
   © 2026
