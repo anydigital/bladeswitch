@@ -42,7 +42,7 @@ It has only <big>3</big> direct dependencies:
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank">bricks<small>.css</small></a></h3><sub
+      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank">bricks<small>-theme</small></a></h3><sub
       >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
       > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sub></pre>
     </td>
