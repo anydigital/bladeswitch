@@ -15,7 +15,7 @@ permalink: /
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time.
 
-Allows you to develop locally w/o [Ruby friction](https://any.digital/tricks/ruby/) (thanks to 11ty), and still deploy natively to GitHub Pages (using built-in Jekyll, w/o GitHub Actions!). Now, with [Sveltia CMS](https://github.com/sveltia/sveltia-cms) also included.
+Allows you to develop locally w/o [Ruby friction](https://any.digital/tricks/ruby/) (thanks to 11ty), and still deploy natively to GitHub Pages (using built-in Jekyll, w/o GitHub Actions). Now, with [Sveltia CMS](https://github.com/sveltia/sveltia-cms) included!
 
 All of this — with only <big>3</big> direct dependencies:
 
