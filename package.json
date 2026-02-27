@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.6",
-    "@anydigital/bricks": "^0.26.0-alpha",
-    "@anydigital/eleventy-bricks": "^0.28.0-alpha.2"
+    "@anydigital/bricks": "^0.26.0-alpha.2",
+    "@anydigital/eleventy-bricks": "^0.28.0-alpha.3"
   },
   "repository": {
     "type": "git",
