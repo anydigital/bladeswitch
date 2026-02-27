@@ -13,11 +13,11 @@ permalink: /
 
 </div>
 
-The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time. So you can develop locally using 11ty w/o [Ruby friction](https://any.digital/tricks/ruby/), and deploy natively to GitHub Pages using Jekyll (w/o writing GitHub Actions). Now, with [Sveltia CMS](https://github.com/sveltia/sveltia-cms) included!
+The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time.
 
----
+So you can even develop locally w/o [Ruby friction](https://any.digital/tricks/ruby/) (thanks to 11ty), and still deploy natively to GitHub Pages w/o GitHub Actions (using built-in Jekyll). Now, with [Sveltia CMS](https://github.com/sveltia/sveltia-cms) included!
 
-It has only <big>3</big> direct dependencies:
+All of this — with only <big>3</big> direct dependencies:
 
 <table>
   <tr>
@@ -103,7 +103,7 @@ It has only <big>3</big> direct dependencies:
 
 ---
 
-Repo: https://github.com/anydigital/bladeswitch
+<big>Repo: https://github.com/anydigital/bladeswitch</big>
 
 Featured in:
 
