@@ -107,10 +107,11 @@ Repo: https://github.com/anydigital/bladeswitch
 
 Featured in:
 
+- https://11tybundle.dev/starters/
+- https://www.11ty.dev/docs/starter/
 - https://sveltiacms.app/en/docs/start#starter-templates
 - https://sveltiacms.app/en/docs/frameworks/eleventy
 - https://sveltiacms.app/en/docs/frameworks/jekyll
-- https://www.11ty.dev/docs/starter/
 - https://any.digital/tricks/11ty/#min-starters
 
 <!-- @TODO: via bricks.css -->
