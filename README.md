@@ -89,7 +89,7 @@ It has only <big>3</big> direct dependencies:
 
 1. Click ↑ to init your own repo.
 2. Go to ⚙️ _Settings → Pages_.
-3. Set _Branch = main_ and _Save_.
+3. Set _Branch_ to `main` and _Save_.
 
 </div><div markdown="1">
 
