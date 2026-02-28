@@ -30,4 +30,12 @@ body {
 pre {
   padding: 1rem 1.5rem;
   padding-inline-end: 2rem;
+
+  code {
+    padding: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    border-radius: 0;
+  }
 }
