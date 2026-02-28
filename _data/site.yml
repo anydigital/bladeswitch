@@ -4,8 +4,12 @@ description: The only starter compatible with BOTH Jekyll and Eleventy at the sa
 favicon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥷</text></svg>"
 styles:
   - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
+  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css
   - /assets/bricks.css
   - /assets/bricks.theme.css
+scripts:
+  - https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js
+  - https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js
 header: |-
   Meet:
 footer: |-
