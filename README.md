@@ -87,8 +87,8 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 ```treeview
 ./
-├── _data/site.yml               # YOUR site-wide metadata
-├── _includes/default.liquid     # YOUR layout template
+├── _data/site.yml              # YOUR site-wide metadata
+├── _includes/default.liquid    # YOUR layout template
 └── *.md                        # YOUR content (editable via CMS!)
 ```
 
