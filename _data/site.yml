@@ -2,8 +2,8 @@ title: Bladeswitch
 description: The only starter compatible with BOTH Jekyll and Eleventy at the same time 🥷
 styles:
   - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css
-  # - https://cdn.jsdelivr.net/npm/@anydigital/bricks@0/dist/bricks.min.css
   - /assets/bricks.css
+  - /assets/bricks.theme.css
 header: |-
   Meet:
 footer: |-

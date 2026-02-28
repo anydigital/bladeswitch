@@ -11,67 +11,49 @@ permalink: /
 
 The only starter compatible with _BOTH_ (!) Jekyll and Eleventy at the same time.
 
-Allows you to develop locally without [Ruby friction](https://any.digital/tricks/ruby/) (thanks to 11ty), and deploy natively to GitHub Pages using built-in Jekyll engine — no GitHub Actions required! Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms).
+It allows you to develop locally without [Ruby friction](https://any.digital/tricks/ruby/) (thanks to 11ty), and deploy natively to GitHub Pages using built-in Jekyll engine — no GitHub Actions required!
 
-All of this — with only <big>3</big> direct dependencies:
+Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of this — with only <big>3</big> direct dependencies:
 
-<table>
+## Dependencies
+
+<table class="borderless">
   <tr>
-    <th width="50%">
+    <th>
       &nbsp;🥷 <em>for</em> <big>Jekyll</big>&nbsp;
       <sup><a href="https://anydigital.github.io/bladeswitch/" target="_blank">PREVIEW</a></sup>
     </th>
-    <th width="50%">
+    <th>
       &nbsp;🥷 <em>for</em> <big>Eleventy</big>&nbsp;
       <sup><a href="https://bladeswitch.netlify.app/" target="_blank">PREVIEW</a></sup>
     </th>
   </tr>
   <tr>
     <td>
-      <pre><h3>1. <a href="https://github.com/github/pages-gem" target="_blank">pages-gem<small>-jekyll</small></a></h3><sub
-      >via <a href="https://github.com/anydigital/bladeswitch/blob/main/Gemfile" target="_blank">Gemfile</a></sub></pre>
+      <pre><h3>1. <a href="https://github.com/github/pages-gem" target="_blank">pages-gem<small>-jekyll</small></a></h3><sup
+      >via <a href="https://github.com/anydigital/bladeswitch/blob/main/Gemfile" target="_blank">Gemfile</a></sup></pre>
     </td>
     <td>
-      <pre><h3>1. <a href="https://github.com/anydigital/eleventy-bricks" target="_blank">eleventy-bricks</a></h3><sub
-      >via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a></sub></pre>
+      <pre><h3>1. <a href="https://github.com/anydigital/eleventy-bricks" target="_blank">eleventy-bricks</a></h3><sup
+      >via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a></sup></pre>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank">bricks<small>-theme</small></a></h3><sub
+      <pre><h3>2. <a href="https://github.com/anydigital/bricks" target="_blank">bricks<small>-theme</small></a></h3><sup
       >as remote_theme via <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml#L1" target="_blank">_config.yml</a
-      > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sub></pre>
+      > or via <a href="https://github.com/anydigital/bladeswitch/blob/main/package.json" target="_blank">package.json</a> for 11ty</sup></pre>
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico<small>.css</small></a> <small>optional</small></h3><sub
-      >from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sub></pre>
+      <pre><h3>3. <a href="https://github.com/picocss/pico" target="_blank">pico<small>.css</small></a> <small>optional</small></h3><sup
+      >from CDN via <a href="https://github.com/anydigital/bladeswitch/blob/main/_data/site.yml#L3" target="_blank">_data/site.yml</a></sup></pre>
     </td>
   </tr>
 </table>
-<!-- these styles are only for the table above, feel free to remove them -->
-<style>
-  th {
-    font-weight: bold;
-  }
-  td {
-    border: none;
-  }
-  table pre {
-    margin-bottom: 0;
-  }
-  pre {
-    padding: 1rem 1.5rem;
-  }
-  pre h3 {
-    margin-bottom: 0;
-  }
-  pre small {
-    opacity: 50%;
-    font-weight: lighter;
-  }
-</style>
+
+---
 
 ## Deploy Options
 
