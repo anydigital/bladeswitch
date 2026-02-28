@@ -43,6 +43,7 @@
       overflow-x: auto;
       -webkit-overflow-scrolling: touch; /* Smooth scroll for iOS */
 
+      th,
       td {
         padding-inline-start: 0;
       }
