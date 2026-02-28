@@ -4,7 +4,8 @@ plugins:
 # theme: bricks
 
 layouts_dir: _includes # 11ty parity
-markdown: kramdown
-kramdown:
-  input: GFM
-  extensions: [autolink]
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
