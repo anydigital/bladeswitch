@@ -59,7 +59,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 <div class="grid"><div markdown="1">
 
-###### A. Natively, w/o GitHub Actions:
+###### <mark>A.</mark> Natively, w/o GitHub Actions:
 
 <p><a href="https://github.com/new?template_name=bladeswitch&template_owner=anydigital" target="_blank" role="button" class="contrast">
   Using Jekyll on GitHub Pages
@@ -71,7 +71,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 </div><div markdown="1">
 
-###### B. Fully preconfigured:
+###### <mark>B.</mark> Fully preconfigured:
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/anydigital/bladeswitch" target="_blank" role="button" class="contrast">
   Using Eleventy on Netlify
