@@ -102,9 +102,9 @@ _config.yml                 # Jekyll config
 package.json                # 11ty packages
 ```
 
----
+<br><big>Repo: https://github.com/anydigital/bladeswitch</big>
 
-<big>Repo: https://github.com/anydigital/bladeswitch</big>
+---
 
 Featured in:
 
