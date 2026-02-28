@@ -57,7 +57,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 ## Deploy Options
 
-<div class="grid"><div markdown="1">
+<div class="grid"><div>
 
 ###### <mark>A.</mark> Natively, w/o GitHub Actions:
 
@@ -69,7 +69,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 2. Go to ⚙️ _Settings → Pages_.
 3. Set _Branch_ to `main` and _Save_.
 
-</div><div markdown="1">
+</div><div>
 
 ###### <mark>B.</mark> Fully preconfigured:
 
@@ -83,7 +83,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 ## All You Need
 
-<div class="breakout-item" data-theme="dark" markdown="1">
+<div class="breakout-item" data-theme="dark">
 
 ```treeview
 _data/site.yml              # YOUR site-wide metadata
