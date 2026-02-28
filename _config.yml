@@ -4,5 +4,7 @@ plugins:
 # theme: bricks
 
 layouts_dir: _includes # 11ty parity
-commonmark:
-  options: ["AUTOLINK"]
+markdown: kramdown
+kramdown:
+  input: GFM
+  extensions: [autolink]
