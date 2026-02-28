@@ -94,7 +94,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 </div>
 
----
+<br>
 
 <big>Repo: https://github.com/anydigital/bladeswitch</big>
 
