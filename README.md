@@ -55,7 +55,7 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 
 ---
 
-## Deploy Options
+## Quick Deploy
 
 <div class="grid"><div>
 
