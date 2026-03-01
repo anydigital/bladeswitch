@@ -20,11 +20,11 @@ Now, also includes [Sveltia CMS](https://github.com/sveltia/sveltia-cms). All of
 <table class="borderless">
   <tr>
     <th>
-      &nbsp;🥷 <em>for</em> <big>Jekyll</big>&nbsp;
+      🥷v.<big>Jekyll</big>&nbsp;
       <sup><a href="https://anydigital.github.io/bladeswitch/" target="_blank">PREVIEW</a></sup>
     </th>
     <th>
-      &nbsp;🥷 <em>for</em> <big>Eleventy</big>&nbsp;
+      🥷v.<big>Eleventy</big>&nbsp;
       <sup><a href="https://bladeswitch.netlify.app/" target="_blank">PREVIEW</a></sup>
     </th>
   </tr>
