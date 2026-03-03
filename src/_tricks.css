@@ -59,3 +59,17 @@ a[data-has-favicon] {
     filter: invert(1) !important;
   }
 }
+
+/* Jump to top trick */
+[data-jump-to="top"] {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-block: 50vh 0.75rem;
+  padding-inline-end: 0.25rem;
+  opacity: 25%;
+
+  &:hover {
+    opacity: 75%;
+  }
+}

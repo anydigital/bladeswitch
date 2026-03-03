@@ -29,3 +29,12 @@ table {
     margin-bottom: 0.25rem;
   }
 }
+
+[data-jump-to] {
+  color: black;
+  font-size: 0.75rem;
+
+  > i {
+    border-color: black;
+  }
+}
