@@ -1,7 +1,9 @@
-a:not([href^="#"]) {
-  text-decoration-thickness: 1px;
-  &:hover {
-    text-decoration-thickness: 2px;
+a {
+  &:not([href^="#"]) {
+    text-decoration-thickness: 1px;
+    &:hover {
+      text-decoration-thickness: 2px;
+    }
   }
 }
 
@@ -12,6 +14,12 @@ h1 {
 
 hr {
   margin-block: 2em; /* for pico.css & tw-typography */
+}
+
+ul {
+  ul {
+    font-size: 90%;
+  }
 }
 
 pre {
@@ -38,6 +46,12 @@ table {
     font-size: 0.75rem;
     color: black;
     border-color: black;
+  }
+}
+
+[data-is-toc] {
+  > ul > * > a {
+    font-weight: 500;
   }
 }
 
