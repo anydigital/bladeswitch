@@ -1,6 +1,6 @@
 # `bricks`<sub><sup>`[.css|.njk|.liquid]`</sup></sub>
 
-Graceful, semantic CSS extension for Pico or Tailwind, with Nunjucks/Liquid batteries included 🥷
+A graceful, semantic CSS extension for Pico or Tailwind, with Nunjucks/Liquid batteries included 🥷
 
 <!--section:css-h2-->
 
