@@ -1,17 +1,4 @@
 .prose {
-  img {
-    &:not(:where(.prose > img, .prose > p > img)) {
-      margin-top: 0;
-      margin-bottom: 1em;
-    }
-  }
-
-  h1 {
-    sub {
-      font-size: 50%;
-    }
-  }
-
   th,
   td {
     /* Keep extra space on the right for better horizontal scroll on mobile */
