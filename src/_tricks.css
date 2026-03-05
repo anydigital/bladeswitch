@@ -1,3 +1,15 @@
+table {
+  /* Workaround to widen particular columns @TODO: add to tricks-wiki */
+  th {
+    hr {
+      width: 12ch; /* min ~65/12 = ~5 cols */
+      height: 0;
+      margin: 0;
+      visibility: hidden;
+    }
+  }
+}
+
 table.borderless {
   th,
   td {
@@ -49,6 +61,16 @@ a[data-has-favicon] {
     /* for tw-typography (.prose) */
     display: inline-block;
     margin-bottom: 0;
+  }
+}
+
+code[data-caption] {
+  &::before {
+    content: attr(data-caption);
+    display: block;
+    margin-bottom: 1rem;
+    opacity: 50%;
+    font-style: italic;
   }
 }
 

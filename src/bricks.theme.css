@@ -31,7 +31,11 @@ pre {
 
 table {
   th {
+    vertical-align: bottom;
     font-weight: bold;
+  }
+  td {
+    vertical-align: top;
   }
   pre {
     margin-bottom: 0.25rem;
