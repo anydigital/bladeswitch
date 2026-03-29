@@ -4,7 +4,7 @@ permalink: /
 
 # 🥷 *Blade*switch <sup>![](https://img.shields.io/github/v/release/anydigital/bladeswitch?label=&color=black)</sup>
 
-<big>Ultra-lightweight [Blades](https://github.com/anydigital/blades) starter compatible with _BOTH_ Jekyll ˂and˃ 11ty (Build Awesome) at the same time.</big>
+<big>Ultra-lightweight [Blades](https://github.com/anydigital/blades) starter compatible with _BOTH_ Jekyll˂˂and˃˃11ty (Build Awesome) at the same time.</big>
 
 [![](https://img.shields.io/github/deployments/anydigital/bladeswitch/github-pages?logo=jekyll&label=Demo&labelColor=darkslategray&style=for-the-badge)](https://anydigital.github.io/bladeswitch/)
 [![](https://img.shields.io/netlify/ec716489-5d5d-43cb-9fa1-892f8479436e?logo=eleventy&label=Demo&labelColor=darkslategray&style=for-the-badge)](https://bladeswitch.netlify.app/)
