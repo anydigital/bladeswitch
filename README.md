@@ -115,6 +115,7 @@ Featured by:
 
 - https://11tybundle.dev/starters/
 - https://www.11ty.dev/docs/starter/
+- [https://jekyll-themes.com/](https://jekyll-themes.com/anydigital/bladeswitch)
 - https://sveltiacms.app/en/docs/start for [11ty](https://sveltiacms.app/en/docs/frameworks/eleventy) & [Jekyll](https://sveltiacms.app/en/docs/frameworks/jekyll)
 - https://build.blades.ninja/ starter
 - https://any.digital/tricks/build-awesome-11ty/#min-starters
