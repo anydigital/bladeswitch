@@ -10,10 +10,8 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.7",
-    "@anyblades/blades": "^0.27.0-beta.16",
-    "@anyblades/eleventy-blades": "^0.28.0-beta.2",
-    "@anydigital/blades": "^0.28.0-alpha.2",
-    "@anydigital/eleventy-blades": "^0.28.0-beta.2"
+    "@anyblades/blades": "^0.28.0-alpha.2",
+    "@anyblades/eleventy-blades": "^0.28.0-beta.2"
   },
   "repository": {
     "type": "git",
