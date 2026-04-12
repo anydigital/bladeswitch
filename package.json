@@ -6,12 +6,12 @@
   "scripts": {
     "start": "npm run 11ty -- --serve",
     "11ty": "eleventy --config=./node_modules/@anyblades/eleventy-blades/src/eleventy.config.js",
-    "dev": "rbenv local 3.2.10 && bundle install && bundle exec jekyll serve"
+    "jekyll": "rbenv local 3.2.10 && bundle install && bundle exec jekyll serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.7",
-    "@anyblades/blades": "^0.28.0-alpha.2",
-    "@anyblades/eleventy-blades": "^0.28.0-beta.2"
+    "@anyblades/blades": "^0.28.0-alpha.4",
+    "@anyblades/eleventy-blades": "^0.28.0-beta.4"
   },
   "repository": {
     "type": "git",

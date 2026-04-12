@@ -120,5 +120,3 @@ Featured by:
 - https://build.blades.ninja/ starter
 - https://any.digital/tricks/build-awesome-11ty/#min-starters
 - https://github.com/anydigital/awesome-11ty-build-awesome
-
-<!--{.unlist}-->
